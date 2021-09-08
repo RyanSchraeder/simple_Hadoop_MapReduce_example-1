@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 import sys
 import string 
+import nltk 
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 import nltk.sentiment.sentiment_analyzer 
 
